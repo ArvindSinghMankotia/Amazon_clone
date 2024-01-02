@@ -58,6 +58,10 @@
     width: 700px;
     display: flex;
 }
+.nacsearch:hover{
+    border: 2px solid #F3A847 ;
+    border-radius: 7px;
+}
 #sselsct{
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
@@ -159,8 +163,64 @@
     align-items: center;
 }
 #cart1{
-
+    font-size: 25px;
 }
 #cart2{
     font-weight: 900;
 }
+
+/* 2nd nav  */
+
+.towbar{
+    height: 40px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-color: #232F3E;
+    color: #FFFFFF;
+}
+.all{
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+}
+#all1{
+    font-weight: 800;
+    height: 14px;
+}
+#all2{
+    font-weight: 600;
+    height: 12px;
+}
+
+.insiterall{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 896px;
+}
+.tv{
+    height: 40px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#prime{
+    height: 38px;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #232F3E;
+    color: #FFFF;
+    border: none;
+}
+.third{
+    width: 400px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.third a{
+    text-decoration: none;
+    color: #FFFF;
+}
+
